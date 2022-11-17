@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/estilos.css" rel="stylesheet" />
+
+    <title>Aluguel</title>
+</head>
+<body>
+    <a href="index.html">Início</a>
+    <a href="quem_somos.html">Quem somos</a>
+    <a href="aluguel.html">Aluguel</a>
+    <a href="lojas.html">Lojas</a>
+    <a href="produtos.html">Produtos</a>   
+    <a href="">Cadastre-se</a>
+    
+
+    <h1>Aluguel sua loja</h1>
+    <form method="post" action="processa.php">
+    <div>    
+        <input type="text" id="nome" name="nome"
+            placeholder="Nome"
+        /> 
+    </div>
+    <div>
+        <input type="number" id="idade" name="idade"
+            placeholder="Idade" />
+    </div>
+    <div>
+        <input type="email" id="email" name="email"
+            placeholder="E-mail"/> 
+    </div>
+
+    <div>
+        <label>Sexo</label>
+        <input type="radio" id="sexo" 
+            name="sexo" value="M" />Masculino
+        
+        <input type="radio" id="sexo" 
+            name="sexo" value="F" />Feminino
+    </div>
+    <div>
+        <label>Estilo de loja</label>
+        <input type="checkbox" id="estilo"
+            name="estilo[]" value="L" />Loja
+        <input type="checkbox" id="estilo"
+            name="estilo[]" value="Q" />Quiosque
+        <input type="checkbox" id="estilo"
+            name="estilo[]" value="S" />Stand
+    </div>
+
+    <div>
+        <label for="cidade">Cidade</label>
+        <select id="cidade" name="cidade">
+            <option></option>
+            <option value="RJ">Rio de Janeiro</option>
+            <option value="NI">Nova Iguaçu</option>
+            <option value="SJM">São João de Meriti</option>
+            <option value="DC">Duque de Caxias</option>
+        </select>
+    </div>
+    <div>
+        <input type="datetime-local" name="diahora" />
+    </div>
+    <div>
+        <input type="text" id="fixo" name="fixo"
+            placeholder="Telefone fixo"/> 
+    </div>
+    <div>
+        <input type="text" id="celular" 
+            placeholder="Telefone Celular"/> 
+    </div>
+    <div>
+        <textarea id="mensagem" cols="20" rows="10"
+            name="mensagem"
+            placeholder="Mensagem"></textarea>
+    </div>
+
+    <div>
+        <input type="submit" value="Ok" />
+        <input type="reset" value="Limpar" />
+
+    </div>    
+
+    </form>
+</body>
+</html>

@@ -1,0 +1,50 @@
+/* A tag */
+h1{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+}
+
+body{
+
+    background-color: rgb(17, 169, 91); 
+    /*background-color: #000000;*/
+}
+img{
+/*    height: 50px;*/
+    width: 100px;
+
+}
+
+
+textarea{
+    font-family: Arial, Helvetica, sans-serif;
+}
+div{
+    margin-top: 20px;
+    margin-left: 15px;
+}
+span{
+    margin-top: 30px;
+    text-align: center;
+}
+
+table{
+    border: 1px #00fff0 solid;
+}
+
+td{
+    border: 1px #00fff0 solid;
+}
+/* Para classe utilizamos . */
+.pagina-principal{
+    height: 200px !important; 
+}
+
+/* Para id utilizamos # */
+#imagem-jogo{
+    height: 300px;
+    width: 400px;
+}
+
+
